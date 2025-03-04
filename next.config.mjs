@@ -17,8 +17,6 @@ const nextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
-  output:"export",
-  basePath: "/cv-landing-bc", // Reemplaza con el nombre del repositorio
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,

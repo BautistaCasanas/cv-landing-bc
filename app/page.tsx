@@ -91,10 +91,12 @@ export default function Home() {
                 <span>Buenos Aires, Argentina</span>
               </div>
               <div className="flex gap-4">
-                <Button>
-                  <Mail  className="mr-2 h-4 w-4" />
+              <Button asChild>
+                <a href="bauticasanas@gmail.com">
+                  <Mail className="mr-2 h-4 w-4" />
                   Contáctame
-                </Button>
+                </a>
+              </Button>
                 <Button asChild variant="outline">
                 <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
                   <FileText className="mr-2 h-4 w-4" />
