@@ -16,12 +16,15 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  trailingSlash: true,
+  basePath: "/cv-landing-bc", // Reemplaza con el nombre del repositorio
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
 }
+
 
 mergeConfig(nextConfig, userConfig)
 
